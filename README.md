@@ -10,8 +10,6 @@ This project is a comprehensive analysis of historical stock revenue data for tw
 - [Technologies Used](#technologies-used)
 - [Data Sources](#data-sources)
 - [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -49,38 +47,9 @@ These sources provide detailed historical financial information, including stock
 ## Project Structure
 
 ```plaintext
-├── data/                       # Directory to store raw and processed data
 ├── notebooks/                  # Jupyter notebooks with the analysis
-├── scripts/                    # Python scripts for data scraping and analysis
 ├── README.md                   # Project description and documentation
-└── requirements.txt            # Required Python packages
 ```
-
-## Setup Instructions
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/stock-revenue-analysis.git
-   cd stock-revenue-analysis
-   ```
-
-2. **Install the required Python packages:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Jupyter notebook:**
-
-   ```bash
-   jupyter notebook notebooks/analysis.ipynb
-   ```
-
-## Usage
-
-- Run the Jupyter notebooks in the `notebooks/` directory to execute the analysis.
-- Use the scripts in the `scripts/` directory for automated data scraping and processing.
 
 ## Results
 
@@ -97,4 +66,4 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
